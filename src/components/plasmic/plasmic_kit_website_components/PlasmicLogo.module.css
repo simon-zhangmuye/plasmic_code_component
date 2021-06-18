@@ -1,0 +1,21 @@
+.root {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+.box {
+  height: 56px;
+  cursor: pointer;
+  display: block;
+  width: 160px;
+  flex-shrink: 0;
+  background: url("./images/logoLt.svg");
+}
+.box__global_theme_dark {
+  display: flex;
+  background: url("./images/logoDt.svg") 0% 0% / 100% 100% no-repeat padding-box
+    border-box scroll;
+}
+.root:hover .box {
+  background: url("./images/logoHoverLt.svg");
+}
